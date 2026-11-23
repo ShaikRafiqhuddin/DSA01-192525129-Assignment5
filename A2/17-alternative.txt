@@ -1,0 +1,12 @@
+Algorithm TotalByCheckedCast
+INPUT: BaseReference
+OUTPUT: Amount
+BEGIN
+    FOR EACH KnownType IN RegisteredTypes DO
+        DerivedReference ← TRY CHECKED CAST BaseReference TO KnownType
+        IF DerivedReference IS VALID THEN
+            RETURN CALL DerivedReference.NonVirtualTotal()
+        END IF
+    END FOR
+    RAISE UnknownBillType
+END

@@ -1,1 +1,0 @@
-Earlier measurement run before forced coverage of all four types in first ten records. Not used in final report. Final results in timings.csv.

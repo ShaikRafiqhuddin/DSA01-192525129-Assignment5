@@ -1,1 +1,0 @@
-Design task; no standard input. See design.md.

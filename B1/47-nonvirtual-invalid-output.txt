@@ -1,0 +1,9 @@
+B1/nonvirtual-invalid.cpp:9:12: error: initializer specified for non-virtual method 'double Bill::total() const'
+    9 |     double total() const = 0;
+      |            ^~~~~
+B1/nonvirtual-invalid.cpp:21:12: error: 'double OutPatient::total() const' marked 'override', but does not override
+   21 |     double total() const override { return consultation + tests; }
+      |            ^~~~~
+B1/nonvirtual-invalid.cpp:30:12: error: 'double InPatient::total() const' marked 'override', but does not override
+   30 |     double total() const override { return days * perDay + surgery; }
+      |            ^~~~~

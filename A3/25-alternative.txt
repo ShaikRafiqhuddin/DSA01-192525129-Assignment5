@@ -1,0 +1,10 @@
+Algorithm MakeInsurancePolicy
+INPUT: Limit, Copay
+OUTPUT: Closure
+BEGIN
+    RETURN FUNCTION(CurrentBill)
+        Claim ← CurrentBill.Total × (1 − Copay)
+        IF Claim > Limit THEN RAISE ClaimError END IF
+        RETURN Claim
+    END FUNCTION
+END

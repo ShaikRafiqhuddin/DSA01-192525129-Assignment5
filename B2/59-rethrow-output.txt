@@ -1,2 +1,0 @@
-throw;: SpecificClaim preserved
-throw e: ClaimError only (sliced)

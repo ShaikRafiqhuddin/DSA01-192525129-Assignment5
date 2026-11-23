@@ -1,8 +1,0 @@
-test 0: acquire release caught charge must be finite and nonnegative; alive=0
-test 1: acquire release caught claim above cover; alive=0
-test 2: acquire release caught unknown package DC; alive=0
-test 3: acquire release caught stod; alive=0
-test 4: acquire release caught bad_alloc; alive=0
-test 5: acquire release caught missing patient record; alive=0
-test 6: acquire release caught unknown exception; alive=0
-PASS: continued after all 7 errors; no live guards

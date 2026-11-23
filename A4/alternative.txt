@@ -1,0 +1,10 @@
+Algorithm ApproveWithStatus
+INPUT: Amount, Cover
+OUTPUT: Status, Approved
+BEGIN
+    Approved ← 0
+    IF Amount < 0 OR Cover < 0 THEN RETURN INVALID_AMOUNT, Approved END IF
+    IF Amount > Cover THEN RETURN ABOVE_COVER, Approved END IF
+    Approved ← Amount
+    RETURN OK, Approved
+END

@@ -1,1 +1,0 @@
-Policy covered=1360 sizeof(std::function)=32 sizeof(Insurance)=24

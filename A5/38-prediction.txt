@@ -1,3 +1,0 @@
-Recorded before execution.
-~f ~main caught 42\n
-f guard unwinds first, then main guard; control skips not printed.

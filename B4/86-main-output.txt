@@ -1,4 +1,0 @@
-Earlier bill total unchanged: 74700
-TEL total=1000 corporate=900
-Recovered: charge must be finite and nonnegative
-PASS: extension and exception recovery

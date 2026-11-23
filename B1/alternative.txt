@@ -1,0 +1,10 @@
+Algorithm TotalSeparateContainers
+INPUT: OPBills, IPBills, DayCareBills, EmergencyBills
+OUTPUT: DaySum
+BEGIN
+    DaySum ← CALL StaticallyTypedSum(OPBills)
+    DaySum ← DaySum + CALL StaticallyTypedSum(IPBills)
+    DaySum ← DaySum + CALL StaticallyTypedSum(DayCareBills)
+    DaySum ← DaySum + CALL StaticallyTypedSum(EmergencyBills)
+    RETURN DaySum
+END

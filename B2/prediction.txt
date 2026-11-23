@@ -1,0 +1,3 @@
+Recorded before execution.
+ok done caught negative [log too large] caught too large \n
+100 succeeds. Negative is caught by the outer standard exception handler. Only out_of_range matches the inner handler and is logged then rethrown.

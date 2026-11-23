@@ -1,0 +1,10 @@
+Algorithm ApproveOptional
+INPUT: Amount, Cover
+OUTPUT: OptionalAmount
+BEGIN
+    IF Amount < 0 OR Cover < 0 OR Amount > Cover THEN
+        RETURN NO VALUE
+    END IF
+    RETURN SOME(Amount)
+END
+The benchmark uses one negative-input rule to isolate the reporting mechanism; it is not a full hospital adjudication workload.

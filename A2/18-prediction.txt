@@ -1,4 +1,0 @@
-Recorded before execution.
-Original: 500 ~OPBill ~Bill \n
-show is statically selected but its internal total call dispatches virtually.
-Without virtual destructor: undefined behavior, no exact portable output. A compiler may print 500 ~Bill, but that is not a guaranteed result. Remove override on the derived destructor as a separate change or compilation fails before the sanitizer can run.
